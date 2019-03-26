@@ -1,6 +1,6 @@
 require_relative '../math_calculator.rb'
 
-RSpec.describe 'Math Calculator', 'Test Addition Handling' do
+RSpec.describe 'Math Calculator', 'Test Plus Handling' do
   it 'HAPPY: should add one and one correctly' do
     expect(one(plus(one))).to eq 2
   end
