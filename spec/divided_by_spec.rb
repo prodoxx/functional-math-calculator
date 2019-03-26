@@ -9,6 +9,6 @@ RSpec.describe 'Test Divided By Operation Handling' do
   end
 
   it 'SAD: should divide seven and 1 incorrectly' do
-    expect(seven(divided_by(one))).not_to eql 7
+    expect(seven(divided_by(one))).not_to eql 10
   end
 end
