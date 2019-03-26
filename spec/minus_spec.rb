@@ -1,6 +1,9 @@
-require_relative '../math_calculator.rb'
+# frozen_string_literal: false
 
-RSpec.describe 'Math Calculator', 'Test Minus Handling' do
+require_relative '../numbers.rb'
+require_relative '../operations.rb'
+
+RSpec.describe 'Test Minus Operation Handling' do
   it 'HAPPY: should minus two and one correctly' do
     expect(two(minus(one))).to eq 1
   end

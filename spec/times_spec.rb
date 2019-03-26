@@ -1,6 +1,9 @@
-require_relative '../math_calculator.rb'
+# frozen_string_literal: false
 
-RSpec.describe 'Math Calculator', 'Test Times Handling' do
+require_relative '../numbers.rb'
+require_relative '../operations.rb'
+
+RSpec.describe 'Test Times Operation Handling' do
   it 'HAPPY: should times four and six correctly' do
     expect(four(times(six))).to eq 24
   end

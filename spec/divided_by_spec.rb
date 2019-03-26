@@ -1,6 +1,9 @@
-require_relative '../math_calculator.rb'
+# frozen_string_literal: false
 
-RSpec.describe 'Math Calculator', 'Test Divided By Handling' do
+require_relative '../numbers.rb'
+require_relative '../operations.rb'
+
+RSpec.describe 'Test Divided By Operation Handling' do
   it 'HAPPY: should divide 9 by three correctly' do
     expect(two(minus(one))).to eq 1
   end
