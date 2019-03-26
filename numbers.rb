@@ -19,3 +19,19 @@ end
 def five(operation_proc = nil)
   (operation_proc.class != Proc or operation_proc.nil?) ? 5 : operation_proc.call(5)
 end
+
+def six(operation_proc = nil)
+  (operation_proc.class != Proc or operation_proc.nil?) ? 6 : operation_proc.call(6)
+end
+
+def seven(operation_proc = nil)
+  (operation_proc.class != Proc or operation_proc.nil?) ? 7 : operation_proc.call(6)
+end
+
+def eight(operation_proc = nil)
+  (operation_proc.class != Proc or operation_proc.nil?) ? 8 : operation_proc.call(8)
+end
+
+def nine(operation_proc = nil)
+  (operation_proc.class != Proc or operation_proc.nil?) ? 9 : operation_proc.call(9)
+end
