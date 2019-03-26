@@ -22,11 +22,11 @@ RSpec.describe 'Test Plus Operations' do
     expect(seven(plus(six))).to eq 13
   end
 
-  it 'HAPPY: should add four and three' do
+  it 'HAPPY: should add four and three correctly' do
     expect(four(plus(three))).to eq 7
   end
 
-  it 'HAPPY: should add two and zero' do
+  it 'HAPPY: should add two and zero correctly' do
     expect(two(plus(zero))).to eql 2
   end
 end
