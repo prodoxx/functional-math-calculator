@@ -4,7 +4,6 @@ def zero(operation_proc = nil)
   (operation_proc.class != Proc or operation_proc.nil?) ? 0 : operation_proc.call(0)
 end
 
-
 def one(operation_proc = nil)
   (operation_proc.class != Proc or operation_proc.nil?) ? 1 : operation_proc.call(1)
 end
