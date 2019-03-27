@@ -44,7 +44,7 @@ or you can just use rspec like this:
 rspec --format doc
 ```
 
-To debug the or try the functions individually, run `rake console`. It should load both the numbers.rb and operations.rb files. You can then, run the functions for example:
+To debug or try the functions individually, run `rake console`. It should load both the numbers.rb and operations.rb files. You can then, run the functions for example:
 
 ```
 six(times(two))

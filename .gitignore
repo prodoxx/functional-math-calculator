@@ -1,0 +1,5 @@
+# Ignore SimpleCov report
+coverage/
+
+#  Ignore bundle folder
+.bundle/
