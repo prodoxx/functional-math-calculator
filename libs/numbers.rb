@@ -1,41 +1,46 @@
 # frozen_string_literal: true
 
-def zero(operation_proc = nil)
-  operation_proc&.call(0) || 0
+
+def default(number)
+  number
 end
 
-def one(operation_proc = nil)
-  operation_proc&.call(1) || 1
+def zero(operation_proc = method(:default))
+  operation_proc.call(0)
 end
 
-def two(operation_proc = nil)
-  operation_proc&.call(2) || 2
+def one(operation_proc = method(:default))
+  operation_proc.call(1)
 end
 
-def three(operation_proc = nil)
-  operation_proc&.call(3) || 3
+def two(operation_proc = method(:default))
+  operation_proc.call(2)
 end
 
-def four(operation_proc = nil)
-  operation_proc&.call(4) || 4
+def three(operation_proc = method(:default))
+  operation_proc.call(3)
 end
 
-def five(operation_proc = nil)
-  operation_proc&.call(5) || 5
+def four(operation_proc = method(:default))
+  operation_proc.call(4)
 end
 
-def six(operation_proc = nil)
-  operation_proc&.call(6) || 6
+def five(operation_proc = method(:default))
+  operation_proc.call(5)
 end
 
-def seven(operation_proc = nil)
-  operation_proc&.call(7) || 7
+def six(operation_proc = method(:default))
+  operation_proc.call(6)
 end
 
-def eight(operation_proc = nil)
-  operation_proc&.call(8) || 8
+def seven(operation_proc = method(:default))
+  operation_proc.call(7)
 end
 
-def nine(operation_proc = nil)
-  operation_proc&.call(9) || 9
+def eight(operation_proc = method(:default))
+  operation_proc.call(8)
+end
+
+def nine(operation_proc = method(:default))
+  operation_proc.call(9)
 end
