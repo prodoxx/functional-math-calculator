@@ -1,6 +1,17 @@
 # Functional Math Calculator
 
-A functional programming demo of a math calculator using ruby.
+A functional programming version of basic math operations. It lets you write math calculations using a functional programming approach that makes your code more human-readable. For example:
+
+```
+six(times(two))
+```
+
+or
+
+```
+six times two
+```
+
 
 ## Install
 1. Clone this this repository: 
