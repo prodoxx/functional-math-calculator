@@ -28,7 +28,15 @@ RSpec.describe 'Test Minus Operation Handling' do
     expect(four(minus(nine))).to eql -5
   end
 
-  it 'HAPPY: should minus six minus three correctly' do
+  it 'HAPPY: should minus six and three correctly' do
     expect(six(minus(three))).to eql 3
+  end
+
+  it 'HAPPY: should minus five and zero correctly' do
+    expect(five(minus(zero))).to eql 5
+  end
+
+  it 'HAPPY: should minus zero and four correctly' do
+    expect(zero(minus(four))).to eql -4
   end
 end
