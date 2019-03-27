@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-
 def default(number)
   number
 end
