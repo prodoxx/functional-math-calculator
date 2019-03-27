@@ -1,7 +1,6 @@
 # frozen_string_literal: false
 
-require_relative '../numbers.rb'
-require_relative '../operations.rb'
+require_relative '../load_all.rb'
 
 RSpec.describe 'Test Plus Operation Handling' do
   it 'HAPPY: should add one and one correctly' do
