@@ -32,4 +32,3 @@ namespace :quality do
     sh "flog #{CODE}"
   end
 end
-
