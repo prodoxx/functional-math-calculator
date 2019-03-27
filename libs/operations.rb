@@ -1,27 +1,21 @@
-# frozen_string_literal: false
+# frozen_string_literal: true
 
-def plus(n)
+def plus(number)
   plus_func = ->(a, b) { b + a }
-  plus_func.curry.call(n)
+  plus_func.curry.call(number)
 end
 
-def minus(n)
+def minus(number)
   minus_func = ->(a, b) { b - a }
-  minus_func.curry.call(n)
+  minus_func.curry.call(number)
 end
 
-def times(n)
+def times(number)
   times_func = ->(a, b) { b * a }
-  times_func.curry.call(n)
+  times_func.curry.call(number)
 end
 
-def divided_by(n)
+def divided_by(number)
   divided_by_func = ->(a, b) { b / a }
-  divided_by_func.curry.call(n)
+  divided_by_func.curry.call(number)
 end
-
-
-
-
-
-
