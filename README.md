@@ -80,6 +80,10 @@ but you can also run them individually like this:
 rake quality:rubocop
 ```
 
+## Coverage Report
+
+When tests are ran, a coverage report is generated at `/coverage/index.html`.
+
 ## Rake Commands
 
 To view a list of rake commands run the following command:
