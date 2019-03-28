@@ -9,6 +9,9 @@ group :development, :test do
   gem 'rspec', '~> 3.8'
   gem 'simplecov'
 
+  # Development
+  gem 'pry'
+
   # Quality Checkers
   gem 'flog'
   gem 'reek'
